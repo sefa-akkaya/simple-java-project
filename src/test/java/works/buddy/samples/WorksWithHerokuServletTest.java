@@ -23,7 +23,7 @@ public class WorksWithHerokuServletTest {
     @Mock
     private HttpServletResponse response;
 
-    @Before
+    @Before 
     public void setUp() throws Exception {
         MockitoAnnotations.initMocks(this);
         servlet = new WorksWithHerokuServlet();
