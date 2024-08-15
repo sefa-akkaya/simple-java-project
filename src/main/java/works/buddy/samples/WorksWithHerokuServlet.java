@@ -8,7 +8,7 @@ import java.io.IOException;
 import java.io.PrintWriter; 
  
 public class WorksWithHerokuServlet extends HttpServlet { 
- 
+  
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         response.setContentType("text/plain");
         response.setStatus(404); 
